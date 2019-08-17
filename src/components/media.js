@@ -24,7 +24,7 @@ const Message = () => (
       <Media left href="#" className="col-12 col-sm-3 col-md-4 text-center">
         <Media
           object
-          src="../../assets/images/1.JPEG"
+          src="https://i.ibb.co/t3Y2Ymp/1.jpg"
           height="70%"
           width="70%"
           alt="Generic placeholder image"
