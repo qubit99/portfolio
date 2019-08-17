@@ -33,7 +33,7 @@ class Header extends React.Component {
             expand="md">
             <Link className="p-2" tag={Link} to="/home">
               <img
-                src="/assets/images/home.jpg"
+                src="./assets/images/home.jpg"
                 height="35"
                 width="46"
                 alt="yar"
