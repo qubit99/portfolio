@@ -31,7 +31,7 @@ class Header extends React.Component {
           <Navbar
             className="navbar navbar-dark navbar-expand-sm fixed-top navcss"
             expand="md">
-            <Link className="p-2" tag={Link} to="/home">
+            <Link className="p-2" tag={Link} to="/portfolio/home">
               <img
                 src="https://i.ibb.co/Wc88vdx/home.jpg"
                 height="35"
@@ -46,7 +46,7 @@ class Header extends React.Component {
                   <NavLink
                     tag={Link}
                     className="navbar-brand brackets"
-                    to="/home">
+                    to="/portfolio/home">
                     Home
                   </NavLink>
                 </NavItem>
@@ -54,7 +54,7 @@ class Header extends React.Component {
                   <NavLink
                     tag={Link}
                     className="navbar-brand brackets"
-                    to="/aboutme">
+                    to="/portfolio/aboutme">
                     About Me
                   </NavLink>
                 </NavItem>
@@ -62,7 +62,7 @@ class Header extends React.Component {
                   <NavLink
                     tag={Link}
                     className="navbar-brand brackets"
-                    to="/blog">
+                    to="/portfolio/blog">
                     Blog
                   </NavLink>
                 </NavItem>
@@ -70,7 +70,7 @@ class Header extends React.Component {
                   <NavLink
                     tag={Link}
                     className="navbar-brand brackets"
-                    to="/contact">
+                    to="/portfolio/contact">
                     Contact Me
                   </NavLink>
                 </NavItem>

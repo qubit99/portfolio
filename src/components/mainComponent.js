@@ -12,11 +12,11 @@ class Main extends Component {
     };
     return (
       <Switch>
-        <Route path="/home" component={HomePage} />
-        <Route exact path="/aboutme" component={Aboutme} />
-        <Route exact path="/blog" component={blog} />
-        <Route exact path="/contact" component={contactme} />;
-        <Redirect to="/home" />
+        <Route path="/portfolio/home" component={HomePage} />
+        <Route exact path="/portfolio/aboutme" component={Aboutme} />
+        <Route exact path="/portfolio/blog" component={blog} />
+        <Route exact path="/portfolio/contact" component={contactme} />;
+        <Redirect to="/portfolio/home" />
       </Switch>
     );
   }
