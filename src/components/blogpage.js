@@ -9,14 +9,13 @@ const blogs = [
   {
     id: 1,
     blogheading: "Why I love Python",
-    blogcontent:
-      " My views on why Python's increasing popularity among developers."
+    blogcontent: " My views on Python's increasing popularity among developers."
   },
   {
     id: 2,
     blogheading: "How I made this website",
     blogcontent:
-      " Want to know how my made this portfolio? Check my deatailed blog here and learn to make your own portfolio with react!"
+      " Want to know how I made this portfolio? Check my deatailed blog here and learn to make your own portfolio with react!"
   },
   {
     id: 3,
